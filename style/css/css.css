@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.header{
+}
+.container{
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.box{
+    width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 177px 130px 33px 95px;
+}
+.img_member img{
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+.text{
+    justify-content: center;
+}
+.tiller{
+    padding: 10px 20px;
+}
+.login{
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.input100{
+    margin-top: 20px;
+}
+.input {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 10px 0 18px;
+}
+.email_input input[type=text]{
+padding-left: 40px;
+}
+.email_input{
+    margin-right: 200px;
+    position: relative;
+}
+.email_input i{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    right: 10px;
+    font-size: 15px;
+}
+.password_input input[type=text]{
+    padding-left:40px;
+}
+.password_input{
+    margin-right: 200px;
+    position: relative;
+}
+.password_input i{
+    position: absolute;
+    left: 20px;
+    top:18px;
+    right: 10px;
+    font-size: 15px;
+}
+.button_login button{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 70%;
+    height: 40px;
+    border-radius: 15px;
+    background: #57b846;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    outline: none;
+    border: none;
+    background: 0 0;
+}
+.forgot{
+    margin-top: 10px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.forgot span:hover{
+    color:#57b846;
+}
+.creat{
+    font-size: 10px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.creat p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.creat:hover{
+    color: #57b846;
+}
